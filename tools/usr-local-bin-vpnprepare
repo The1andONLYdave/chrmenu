@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo stop shill
+sudo start shill BLACKLISTED_DEVICES=tun0
+echo "shill prepared, start chroot and please input 'sudo vpnc'in chroot then"
